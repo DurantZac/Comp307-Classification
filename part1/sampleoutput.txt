@@ -1,0 +1,117 @@
+barretts% cd Desktop/COMP307/Assignment\ 1/part1 
+barretts% python WineClass.py wine-training wine-test
+Classifying wine-training set with wine-test training set. Considering the 3 nearest neighbours
+Instance 0 classified as class 3
+Instance 1 classified as class 3
+Instance 2 classified as class 3
+Instance 3 classified as class 1
+Instance 4 classified as class 1
+Instance 5 classified as class 1
+Instance 6 classified as class 2
+Instance 7 classified as class 2
+Instance 8 classified as class 1
+Instance 9 classified as class 2
+Instance 10 classified as class 3
+Instance 11 classified as class 3
+Instance 12 classified as class 3
+Instance 13 classified as class 3
+Instance 14 classified as class 1
+Instance 15 classified as class 2
+Instance 16 classified as class 3
+Instance 17 classified as class 3
+Instance 18 classified as class 1
+Instance 19 classified as class 1
+Instance 20 classified as class 3
+Instance 21 classified as class 2
+Instance 22 classified as class 2
+Instance 23 classified as class 3
+Instance 24 classified as class 2
+Instance 25 classified as class 3
+Instance 26 classified as class 2
+Instance 27 classified as class 3
+Instance 28 classified as class 2
+Instance 29 classified as class 1
+Instance 30 classified as class 2
+Instance 31 classified as class 1
+Instance 32 classified as class 2
+Instance 33 classified as class 1
+Instance 34 classified as class 2
+Instance 35 classified as class 2
+Instance 36 classified as class 2
+Instance 37 classified as class 2
+Instance 38 classified as class 2
+Instance 39 classified as class 1
+Instance 40 classified as class 2
+Instance 41 classified as class 2
+Instance 42 classified as class 3
+Instance 43 classified as class 1
+Instance 44 classified as class 2
+Instance 45 classified as class 1
+Instance 46 classified as class 3
+Instance 47 classified as class 2
+Instance 48 classified as class 2
+Instance 49 classified as class 1
+Instance 50 classified as class 3
+Instance 51 classified as class 1
+Instance 52 classified as class 1
+Instance 53 classified as class 3
+Instance 54 classified as class 3
+Instance 55 classified as class 1
+Instance 56 classified as class 1
+Instance 57 classified as class 3
+Instance 58 classified as class 1
+Instance 59 classified as class 3
+Instance 60 classified as class 3
+Instance 61 classified as class 1
+Instance 62 classified as class 2
+Instance 63 classified as class 3
+Instance 64 classified as class 2
+Instance 65 classified as class 3
+Instance 66 classified as class 3
+Instance 67 classified as class 1
+Instance 68 classified as class 1
+Instance 69 classified as class 2
+Instance 70 classified as class 2
+Instance 71 classified as class 3
+Instance 72 classified as class 2
+Instance 73 classified as class 2
+Instance 74 classified as class 1
+Instance 75 classified as class 1
+Instance 76 classified as class 1
+Instance 77 classified as class 3
+Instance 78 classified as class 1
+Instance 79 classified as class 1
+Instance 80 classified as class 2
+Instance 81 classified as class 2
+Instance 82 classified as class 3
+Instance 83 classified as class 1
+Instance 84 classified as class 2
+Instance 85 classified as class 1
+Instance 86 classified as class 1
+Instance 87 classified as class 2
+Instance 88 classified as class 1
+Rate of classification: 0.96
+
+
+
+Class labels: 29 36 24
+Initial Allocation
+38
+18
+33
+Updated Allocation
+30
+28
+31
+Updated Allocation
+26
+33
+30
+Updated Allocation
+26
+33
+30
+Final Allocation
+26
+33
+30

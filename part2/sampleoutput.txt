@@ -1,0 +1,91 @@
+barretts% python DecisionTree.py hepatitis-training hepatitis-test
+
+
+
+Training decision tree from hepatitis-training
+Rate of classification: 0.76
+Baseline classification: 0.80
+Tree generated for hepatitis-training hepatitis-test
+ASCITES = True
+     SPIDERS = True
+          VARICES = True
+               STEROID = True
+                     Class: live Prob: 1.00
+               STEROID = False
+                    SPLEENPALPABLE = True
+                         FIRMLIVER = True
+                               Class: live Prob: 1.00
+                         FIRMLIVER = False
+                              BIGLIVER = True
+                                   SGOT = True
+                                         Class: live Prob: 1.00
+                                   SGOT = False
+                                        FEMALE = True
+                                              Class: live Prob: 1.00
+                                        FEMALE = False
+                                             ANOREXIA = True
+                                                   Class: die Prob: 1.00
+                                             ANOREXIA = False
+                                                   Class: live Prob: 1.00
+                              BIGLIVER = False
+                                    Class: live Prob: 1.00
+                    SPLEENPALPABLE = False
+                         HISTOLOGY = True
+                               Class: die Prob: 1.00
+                         HISTOLOGY = False
+                               Class: live Prob: 1.00
+          VARICES = False
+                Class: die Prob: 1.00
+     SPIDERS = False
+          BILIRUBIN = True
+               FATIGUE = True
+                    AGE = True
+                          Class: live Prob: 1.00
+                    AGE = False
+                          Class: die Prob: 1.00
+               FATIGUE = False
+                    ANTIVIRALS = True
+                         MALAISE = True
+                               Class: live Prob: 0.75
+                         MALAISE = False
+                               Class: live Prob: 0.70
+                    ANTIVIRALS = False
+                          Class: live Prob: 1.00
+          BILIRUBIN = False
+                Class: live Prob: 0.89
+ASCITES = False
+      Class: die Prob: 0.73
+
+
+
+Training decision tree from hepatitis-training-run-0
+Rate of classification: 0.87
+Baseline classification: 0.83
+Training decision tree from hepatitis-training-run-1
+Rate of classification: 0.87
+Baseline classification: 0.80
+Training decision tree from hepatitis-training-run-2
+Rate of classification: 0.87
+Baseline classification: 0.80
+Training decision tree from hepatitis-training-run-3
+Rate of classification: 0.90
+Baseline classification: 0.77
+Training decision tree from hepatitis-training-run-4
+Rate of classification: 0.93
+Baseline classification: 0.83
+Training decision tree from hepatitis-training-run-5
+Rate of classification: 0.80
+Baseline classification: 0.77
+Training decision tree from hepatitis-training-run-6
+Rate of classification: 0.93
+Baseline classification: 0.87
+Training decision tree from hepatitis-training-run-7
+Rate of classification: 0.90
+Baseline classification: 0.77
+Training decision tree from hepatitis-training-run-8
+Rate of classification: 0.83
+Baseline classification: 0.57
+Training decision tree from hepatitis-training-run-9
+Rate of classification: 0.83
+Baseline classification: 0.73
+Average perfomance: 0.8733333333333334
